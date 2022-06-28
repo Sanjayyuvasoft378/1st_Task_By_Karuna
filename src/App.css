@@ -2,6 +2,35 @@
   text-align: center;
 }
 
+.div2 {
+  width: 350px;
+  height: 150px;  
+  padding: 30px;
+  border: 3px solid rgb(25, 0, 255);
+  margin-left: 30px;
+}
+
+.Cbtn {
+  border: none;
+  padding: 5px 13px;
+  color: white;
+ background-color: red;
+  border-radius: 3px;
+}
+
+.Cbtn:focus{
+background-color: grey;
+ cursor: pointer;
+}
+
+.box {
+  width: 700px;
+  height: 450px;  
+  padding: 10px;
+  border: 3px solid rgb(25, 0, 255);
+  margin-left: 30px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
